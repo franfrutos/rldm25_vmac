@@ -1,10 +1,19 @@
 title: Rldm25_vmac
-author: Francisco Garre Frutos
+author: Tu Nombre
 version: 1.0.0
 quarto-required: ">=1.6.0"
 contributes:
   formats:
     pdf:
-      toc: true
-      include-in-header: header.tex
-
+      documentclass: article
+      include-in-header: |
+        \usepackage{lmodern} % Mejora el soporte de fuentes
+        \usepackage[T1]{fontenc} % Codificación adecuada para negritas y fuentes modernas
+        \renewcommand{\ttdefault}{cmtt} % Monospace adecuada para texttt
+        \usepackage{amsmath} % Mejora matemáticas
+        \usepackage{titlesec} % Control avanzado de secciones
+        \titleformat{\section}{\large\bfseries}{\thesection}{1em}{} % Negritas para secciones
+      template: template.tex
+      latex-engine: xelatex
+      format-resources:
+        - rldm25.sty
