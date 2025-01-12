@@ -1,24 +1,5 @@
-# Rldm25_vmac Format
+# RLDM25 extended abstract
 
-## Installing
+This repository contains the data and code for the work presented at the Reinforcement Learning and Decision Making 2025 (RLDM25) conference.
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
-```bash
-quarto use template <github-organization>/rldm25_vmac
-```
-
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
-
-## Using
-
-*TODO*: Describe how to use your format.
-
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
-
+In addition, I have created an extension to create a .pdf document using the [style guidelines](https://rldm.org/call-for-abstracts-2025/) provided by the organisation of RLDM25. It is not for general use, but with some tweaks it might work for other 
